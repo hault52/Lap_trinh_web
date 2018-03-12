@@ -1,0 +1,226 @@
+﻿  .Mathang
+    {
+        width: 1000px;
+    }
+    
+    .Mathang .mathang_left
+    {
+        width: 760px;
+    }
+    .Mathang .mathang_right
+    {
+        width: 240px;
+    }
+    
+    .img_main
+    {
+        border: 1px solid #fff;
+        padding: 2px;
+        max-width: 105px;
+        max-height: 102px;
+        z-index: -100;
+    }
+    .img_main1
+    {
+        border: 1px solid #fff;
+        padding: 2px;
+        max-width: 105px;
+        max-height: 102px;
+        z-index: -100;
+    }
+    .main_layout_img:hover
+    {
+        width: 49%;
+        height: 117px;
+        border: 1px solid #ffb400;
+        float: left;
+    }
+    
+    #titles
+    {
+        height: 40px;
+        width: 100%;
+        text-align: left;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #titles a
+    {
+        color: #2e2e2e;
+        font-size: 12px;
+        text-decoration: none;
+        font-family: Tahoma;
+        font-weight: none;
+        font-family: .VnArial;
+    }
+    
+    #titles a:hover
+    {
+        color: #ffb400;
+        font-size: 12px;
+        text-decoration: none;
+        font-family: Tahoma;
+    }
+    .title_main
+    {
+        color: #ffb400;
+        font-size: 11px;
+        text-decoration: none;
+        font-family: Tahoma;
+    }
+    .title_main:hover
+    {
+        color: #ffb400;
+        font-size: 12px;
+    }
+    .vnd
+    {
+        font-size: 11px;
+    }
+    
+    .km_main
+    {
+        max-height: 40px;
+        min-height: 36px;
+        border-top: dashed 1px #ccc;
+        background-image: url('../images/ico/line_main.gif');
+        background-repeat: repeat-x;
+        background-position: bottom;
+        padding-left: 5px;
+        width: 98%;
+        float: left;
+        text-align: left;
+        font-size: 11px;
+        padding-bottom: 5px;
+        font-family: Tahoma color: #888888;
+    }
+    /* background: #000 url('../images/ico_left.gif');*/
+    .mathang_title
+    {
+        min-width: 100px;
+        height: 30px;
+        float: left;
+        font: 15px 'Tahoma';
+        font-weight: bold;
+        color: #008aff;
+        margin-left: 10px;
+        background-repeat: no-repeat;
+        background-position: left top;
+        padding-left: 20PX;
+        padding-top: 5PX;
+    }
+    .main_sanpham_host
+    {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 0px;
+    }
+    .main_layout
+    {
+        margin: 0px;
+        max-width: 254px;
+        width: 254px;
+        min-height: 204px;
+        max-height: 170px;
+        border-bottom: 1px solid #ececec;
+        border-right: 1px solid #ececec;
+        background: #fff;
+        position: relative;
+    }
+    .main_layout_item
+    {
+        width: 100%;
+        padding-left: 5px;
+    }
+    .main_layout_img
+    {
+        width: 49%;
+        height: 117px;
+        border: 1px solid #fff;
+        float: left;
+    }
+    .main_layout_chitiet
+    {
+        width: 49%;
+        height: 16px;
+        text-align: left;
+        padding-bottom: 20px;
+        float: right;
+    }
+    #tinhtrang
+    {
+        font-size: 11px;
+        font-family: Tahoma;
+        font-weight: 200;
+        color: #696969;
+    }
+    #baohanh
+    {
+        font-size: 11px;
+        font-family: Tahoma;
+        font-weight: 200;
+        color: #696969;
+    }
+    
+    #giaban
+    {
+        font: 12px 'Tahoma';
+        font-weight: bold;
+        color: #d23e16;
+    }
+    
+    .sp_main
+    {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+    .sp_main li
+    {
+        float: left;
+        list-style: none;
+        padding: 0px 0px;
+    }
+    
+    
+    .main_conten
+    {
+        margin: 0px;
+        padding: 0px;
+    }
+    .main_conten li
+    {
+        list-style: none;
+        text-align: left;
+    }
+    
+    #item_menu_main
+    {
+        margin: 0px;
+        padding: 0px;
+        background: #fff url('shttp://www.dienmay.com/App_Themes/dienmay.com/images/bg-imgdeal.gif');
+        height: 29px;
+        width: 100%;
+        border-bottom: 1px solid #fff;
+    }
+    #item_menu_main li
+    {
+        list-style: none;
+        float: left;
+        padding: 1px 10px;
+        text-align: left;
+    }
+    #item_menu_main .a
+    {
+        list-style: none;
+        float: left;
+        padding: 4px 5px;
+        font-size: 11px;
+        color: #888888;
+        text-decoration: none;
+    }
+    #item_menu_main .a:hover
+    {
+        text-decoration: underline;
+        color: #ffae00;
+    }

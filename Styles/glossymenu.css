@@ -1,0 +1,75 @@
+﻿
+.glossymenu{
+margin: 0px 0;
+padding: 0;
+color: #000;
+width: 202px; /*width of menu*/
+border: 1px solid #fff;
+border-bottom-width: 0;
+text-align:left;
+}
+
+.glossymenu a.menuitem{
+background: #fff url(glossyback.gif) repeat-x bottom left;
+font-size:13px;
+color: #000;
+display: block;
+position: relative; /*To help in the anchoring of the ".statusicon" icon image*/
+width: auto;
+padding: 5px 0;
+padding-left: 10px;
+text-decoration: none;
+border-bottom:1px solid #e0e0e0;
+border-top:1px solid #fff;
+font-family:Tahoma;
+ text-shadow: #fff 1px 1px 1px;
+ font-weight:bold;
+}
+
+
+.glossymenu a.menuitem:visited, .glossymenu .menuitem:active
+{
+    font-family:Tahoma;
+color: #000;
+}
+
+.glossymenu a.menuitem .statusicon{ /*CSS for icon image that gets dynamically added to headers*/
+position: absolute;
+top: 0px;
+right: 3px;
+border: none;
+}
+
+.glossymenu a.menuitem:hover{
+background-image:#ffd200;
+}
+
+.glossymenu div.submenu{ /*DIV that contains each sub menu*/
+background: white;
+}
+
+.glossymenu div.submenu ul{ /*UL of each sub menu*/
+list-style-type: none;
+margin: 0;
+padding: 0;
+}
+
+.glossymenu div.submenu ul li{
+border-bottom: 1px solid #fbfbfb;
+padding:2px;
+
+}
+
+.glossymenu div.submenu ul li a{
+display: block;
+font-family:Tahoma;
+color: black;
+text-decoration: none;
+padding: 2px 0;
+padding-left: 10px;
+}
+
+.glossymenu div.submenu ul li a:hover{
+background: #ffd200;
+colorz: white;
+}

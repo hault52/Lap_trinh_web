@@ -1,0 +1,573 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+
+
+
+
+.fontcafe
+{
+    font-family: 'UTMCafetaRegular';
+}
+body
+{
+    background: #fbfbfb url('http://phucanh.vn/Images/Common/bgt9.jpgK');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: fixed;
+    font-size: .80em;
+    font-family: Arial, Helvetica, Verdana, sans-serif,Tahoma;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+
+
+img
+{
+    border-width:0px;
+    }
+
+
+a:link, a:visited
+{
+    color: #034af3;
+}
+
+a:hover
+{
+    color: #1d60ff;
+    text-decoration: none;
+}
+
+a:active
+{
+    color: #034af3;
+}
+
+p
+{
+    margin-bottom: 10px;
+    line-height: 1.6em;
+}
+
+
+/* HEADINGS   
+----------------------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6
+{
+    font-size: 1.5em;
+    color: #666666;
+    font-variant: small-caps;
+    text-transform: none;
+    font-weight: 200;
+    margin-bottom: 0px;
+}
+
+h1
+{
+    font-size: 1.6em;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+h2
+{
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+h4
+{
+    font-size: 1.1em;
+}
+
+h5, h6
+{
+    font-size: 1em;
+}
+
+/* this rule styles <h1> and <h2> tags that are the 
+first child of the left and right table columns */
+.rightColumn > h1, .rightColumn > h2, .leftColumn > h1, .leftColumn > h2
+{
+    margin-top: 0px;
+}
+
+/*MENU
+---------------------------------------------------*/
+
+
+
+
+/* PRIMARY LAYOUT ELEMENTS   
+----------------------------------------------------------*/
+.page
+{
+    width: 1000px;
+    margin: 0px;
+    background: #fff;
+    box-shadow: 0px 20px 5px #ccc;
+}
+
+
+.main
+{
+    width: 1000px;
+}
+.header
+{
+    width: 1000px;
+    height: 100px;
+}
+.footer
+{
+    width: 1000px;
+    height: 100px;
+    background: #0000ff;
+}
+.menu_nav
+{
+    width: 780px;
+    height: 33px;
+}
+
+
+.item_fooder
+{
+    border-right: 1px solid #323232;
+    padding-left: 10px;
+    width: 35%;
+}
+/* Main   
+----------------------------------------------------------*/
+#trang_chu li
+{
+    list-style: none;
+}
+.main_left
+{
+    width: 780px;
+    float: right;
+    border-left: 0px solid #ccc;
+}
+.main_right
+{
+    width: 218px;
+    float: left;
+}
+
+.main_left_ct
+{
+    width: 100%;
+    float: left;
+}
+
+.bttk
+{
+    background: #000;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-family: Tahoma;
+    padding-top: -4px;
+    height: 25px;
+    font-weight: bold;
+}
+.bttk:hover
+{
+    color: #ffc500;
+}
+/* Menu   text-shadow: #5c5c5c 0px 1px 1px;
+----------------------------------------------------------*/
+
+#nav
+{
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+#nav li.item
+{
+    list-style: none;
+    float: left;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    z-index: 1000;
+}
+
+#nav li.item:hover
+{
+    background: #000;
+    z-index: 1000;
+}
+#nav li a.link
+{
+    text-decoration: none;
+    font-family: .VnArial;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    color: #fff;
+    padding-right: 10px;
+    height: 30px;
+    z-index: 1000;
+}
+
+#nav li a.link:hover
+{
+    color: #f3c904;
+    text-shadow: #5c5c5c 0px 1px 1px;
+}
+#nav li#home
+{
+    padding-left: 20px;
+}
+
+#nav ul
+{
+    display: none;
+    width: 200px;
+    padding: 0px;
+    margin: 8px 0 0 0;
+    margin-left: -15px;
+    text-align: left;
+    z-index: 1000;
+}
+
+#nav ul li
+{
+    box-shadow: 3px 3px 5px #666;
+    -moz-box-shadow: 3px 3px 5px #666;
+    -webkit-box-shadow: 3px 3px 5px #666;
+    width: 200px;
+    margin: 0;
+    padding: 8px 0 0 5px;
+    background: #ccc;
+    color: #000;
+    list-style: none;
+    height: 25px;
+    z-index: 1000;
+    border-bottom: 1px solid #797979;
+}
+#nav ul li:hover
+{
+    background: #ffba00;
+    z-index: 1000;
+    color: Blue;
+}
+#nav li:hover ul
+{
+    display: block;
+    position: absolute;
+    z-index: 1000;
+}
+#nav ul a
+{
+    font-size: 13px;
+    color: #FFF;
+    width: 100%;
+    padding: 0px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 1000;
+}
+#homes
+{
+    padding-right: 10px;
+    margin-top: -3px;
+}
+#nav li.item#homes:hover
+{
+    z-index: 1000;
+    background: none;
+}
+
+#nav_2:hover
+{
+    display: block;
+}
+#nav_2 li
+{
+    display: none;
+}
+
+
+
+/*Menu Home-------------------------------------------*/
+
+#nav_home
+{
+    list-style: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+    z-index: 1000;
+}
+
+#nav_home li.item_home
+{
+    list-style: none;
+    float: left;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    z-index: 1000;
+}
+
+#nav_home li.item_home:hover
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    z-index: 1000;
+}
+#nav_home li
+{
+    text-decoration: none;
+    font-family: .VnArial;
+    font-style: normal;
+    color: #000;
+    padding-right: 10px;
+    height: 25px;
+    z-index: 1000;
+}
+
+#nav_home li a.link:hover
+{
+    color: #f3c904;
+}
+#nav_home li#home
+{
+    padding-left: 20px;
+}
+
+#nav_home ul
+{
+    display: none;
+    width: 200px;
+    padding: 0px;
+    margin: 34px 0 0 0;
+    margin-left: -225px;
+    text-align: left;
+    z-index: 1000;
+}
+
+#nav_home ul li
+{
+    list-style: none;
+}
+
+#nav_home li:hover ul
+{
+    display: block;
+    position: absolute;
+    z-index: 1000;
+}
+#dathang_new
+{
+    color: #00f;
+    text-decoration: none;
+}
+#dathang_new:hover
+{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+
+#cart
+{
+    list-style: none;
+    float: left;
+    margin-left: 0px;
+    margin-top: 1px;
+    height: 30px;
+    padding: 0px;
+    width: 185px;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#cart li.link_cart
+{
+    list-style: none;
+    float: left;
+    padding-top: 7px;
+}
+
+#cart ul
+{
+    display: none;
+    position: absolute;
+    padding-top: -10px;
+}
+
+#cart li a
+{
+    padding-left: 15px;
+}
+
+#cart li:hover ul
+{
+    display: block;
+    z-index: 1000;
+}
+#cart ul li
+{
+    list-style: none;
+    margin-left: -203px;
+    background: #fff;
+    width: 370px;
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin-top: 11px;
+    box-shadow: 3px 3px 3px gray;
+    -moz-box-shadow: -3px 3px 3px gray;
+    -webkit-box-shadow: -3px 3px 3px gray;
+}
+
+
+/* PHAN TRANG
+---------------------------------------------------*/
+#pages_pro
+{
+    margin-top: -10px;
+}
+.pages_item
+{
+    float: left;
+    list-style: none;
+    margin: 0px;
+    padding: 5px 5px;
+}
+.pages
+{
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 3px 6px 3px 6px;
+    text-decoration: none;
+    color: #000;
+}
+.page_next
+{
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 3px 6px 3px 6px;
+    text-decoration: none;
+    color: #000;
+}
+.page_back
+{
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 3px 6px 3px 6px;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/* ToolTip
+-----------------------------------------------*/
+
+
+.tooltip_title
+{
+    min-height: 30px;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    background: #ff5500;
+    margin: 5px;
+}
+
+.tooltip_conten
+{
+    border-top: 1px dotted #ccc;
+    font-size: 12px;
+    padding-top: 5px;
+}
+.tooltip_gia
+{
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#dhtmltooltip
+{
+    padding-right: 4px;
+    border: 1px solid #ff5000;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding-left: 4px;
+    font-size: 10pt;
+    z-index: 100;
+    left: -300px;
+    visibility: hidden;
+    padding-bottom: 4px;
+    padding-top: 4px;
+    font-family: Arial;
+    position: absolute;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 3px #ccc;
+    -moz-box-shadow: 2px 2px 3px #ccc;
+    -webkit-box-shadow: 2px 2px 3px #ccc;
+    width: 300px;
+}
+#dhtmlpointer
+{
+    z-index: 101;
+    left: -300px;
+    visibility: hidden;
+    position: absolute;
+}
+
+
+
+
+/*Đăng ký -Đăng nhâp 
+---------------------------------------------*/
+.dn
+{
+    box-shadow: 0px 0px 2px #fff;
+    background: #000;
+    padding: 4px 8px;
+}
+.dn:hover
+{
+    background: #ffc500;
+}
+.dk
+{
+    box-shadow: 0px 0px 2px #fff;
+    background: #000;
+    padding: 4px 8px;
+}
+.dk:hover
+{
+    background: #034fcc;
+}
+.aa
+{
+    text-decoration: none;
+    color: #000;
+}
+/* PUPUP
